@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Sticky Footer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Gentium+Book+Basic">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css">	
+	html, body {
+		height: 100%;
+	}
+	.container {
+		display: table;
+		height: 100%;
+	}
+	.block {
+		display: table-row;
+		height: 1px;
+		overflow: hidden;
+	}
+	.push {
+		height: auto;
+	}
+	/*
+
+		Demo Styles
+
+	*/
+	.container {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.block:nth-child(odd) {
+		background: #ccc;
+	}
+	h1, h2, p {
+		font-family: "Gentium Book Basic", serif;
+		font-weight: normal;
+		line-height: 150%;
+		padding: 0 20px;
+	}
+</style>
+</head>
+<body class="container">
+	<header class="block">
+		<h1>Responsive Sticky Footer</h1>
+	</header>
+    <section class="block push">
+    	<h2>Body Content</h2>
+    	<p>Vestibulum euismod fringilla velit quis dignissim. Donec sem tellus, accumsan nec pharetra ac, suscipit sed nisl. Curabitur in libero ac est commodo posuere. Donec porttitor euismod enim, in vehicula elit fringilla quis. Pellentesque at turpis et orci tempus imperdiet. Nullam placerat odio augue. Aenean at odio lectus, et elementum sem. Phasellus sapien augue, facilisis a aliquam sit amet, facilisis at felis. Integer lobortis tristique dui at vehicula. Morbi viverra, lectus et porta ultrices, lorem massa placerat mauris, nec volutpat magna est quis magna. Donec pulvinar, dolor eu posuere viverra, velit est interdum turpis, elementum sollicitudin lorem tortor sed odio.</p>
+    	<p><a href="http://timothy-long.com/examples/responsive-sticky-footer/">Return to article.</a></p>
+    </section>
+    <footer class="block">
+    	<h2>The Sticky Footer</h2>
+    	<p>Vestibulum euismod fringilla velit quis dignissim. Donec sem tellus, accumsan nec pharetra ac, suscipit sed nisl. Curabitur in libero ac est commodo posuere. Donec porttitor euismod enim, in vehicula elit fringilla quis. Pellentesque at turpis et orci tempus imperdiet. Nullam placerat odio augue. Aenean at odio lectus, et elementum sem. Phasellus sapien augue, facilisis a aliquam sit amet, facilisis at felis. Integer lobortis tristique dui at vehicula. Morbi viverra, lectus et porta ultrices, lorem massa placerat mauris, nec volutpat magna est quis magna. Donec pulvinar, dolor eu posuere viverra, velit est interdum turpis, elementum sollicitudin lorem tortor sed odio.</p>
+    	<p>Vestibulum euismod fringilla velit quis dignissim. Donec sem tellus, accumsan nec pharetra ac, suscipit sed nisl. Curabitur in libero ac est commodo posuere. Donec porttitor euismod enim, in vehicula elit fringilla quis.</p>
+    </footer>
+</body>
+</html>
+
